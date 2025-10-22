@@ -9,13 +9,10 @@ const Header = () => {
 
 	return (
 		<div className="flex justify-between items-center shadow-sm p-5">
-			<Link to={"/"}>
-				<img
-					src="/genetic.svg"
-					alt="logo"
-					width={50}
-					height={50}
-				/>
+			<Link
+				to={"/"}
+				className="text-3xl font-bold text-primary tracking-tight">
+				AutoMatch
 			</Link>
 
 			<ul className="hidden md:flex gap-16">

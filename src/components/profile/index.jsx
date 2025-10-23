@@ -10,7 +10,7 @@ const Profile = () => {
 		<div>
 			<Header />
 
-			<div className="px-4 sm:px-6 lg:px-30 my-10">
+			<div className="px-4 sm:px-6 md:px-20 lg:px-30 my-10">
 				<div className="flex justify-between items-center">
 					<h2 className="font-bold text-2xl">My Listing</h2>
 

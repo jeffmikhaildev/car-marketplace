@@ -30,15 +30,17 @@ const AddListing = () => {
 		<div>
 			<Header />
 
-			<div className="px-4 sm:px-6 lg:px-30 my-10">
+			<div className="px-4 sm:px-6 md:px-20 lg:px-30 my-10">
 				<h2 className="font-bold text-2xl">Add New Listing</h2>
 
+				{/* FORM */}
 				<form
 					className="p-4 md:p-6 lg:p-10 rounded-xl shadow-md border mt-10"
 					onSubmit={onSubmit}>
 					{/* CAR DETAILS */}
 					<div>
-						<h2 className="font-medium text-xl mb-6">Car Details</h2>
+						<h2 className="font-medium text-xl mb-6">Details</h2>
+
 						<div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
 							{carDetails.carDetails.map((item, index) => (
 								<div key={index}>
@@ -65,12 +67,10 @@ const AddListing = () => {
 							))}
 						</div>
 					</div>
-
 					<Separator className="my-6" />
-
 					{/* FEATURES LIST */}
 					<div>
-						<h2 className="font-medium text-xl mb-6">Car Features</h2>
+						<h2 className="font-medium text-xl mb-6">Features</h2>
 						<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
 							{features.features.map((item, index) => (
 								<div
@@ -81,11 +81,8 @@ const AddListing = () => {
 							))}
 						</div>
 					</div>
-
 					<Separator className="my-6" />
-
 					{/* CAR IMAGES */}
-
 					<div className="mt-10 flex justify-end">
 						<Button>Submit</Button>
 					</div>

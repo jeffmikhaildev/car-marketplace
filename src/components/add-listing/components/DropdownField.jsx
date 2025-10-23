@@ -7,11 +7,11 @@ const DropdownField = ({ item, handleInputChange }) => {
 			<Select
 				onValueChange={(value) => handleInputChange(item.name, value)}
 				required={item.required}>
-				<SelectTrigger className="w-full">
+				<SelectTrigger className="w-full focus-visible:ring-0 focus-visible:outline-none">
 					<SelectValue placeholder={item?.label} />
 				</SelectTrigger>
 				<SelectContent>
-					{item.options.map((option, index) => (
+					{item?.options.map((option, index) => (
 						<SelectItem
 							key={index}
 							value={option}>

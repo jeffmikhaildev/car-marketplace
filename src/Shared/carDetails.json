@@ -5,21 +5,19 @@
 			"name": "title",
 			"fieldType": "text",
 			"required": true,
-			"column": 2,
 			"icon": "FaClipboardList"
 		},
 		{
 			"label": "Tagline",
 			"name": "tagline",
 			"fieldType": "text",
-			"column": 2,
 			"icon": "FaTag"
 		},
 		{
 			"label": "Original Price",
 			"name": "originalPrice",
 			"fieldType": "number",
-			"column": 1,
+			"required": true,
 			"icon": "FaDollarSign"
 		},
 		{
@@ -27,7 +25,6 @@
 			"name": "sellingPrice",
 			"fieldType": "number",
 			"required": true,
-			"column": 1,
 			"icon": "FaMoneyBillAlt"
 		},
 		{
@@ -36,7 +33,6 @@
 			"fieldType": "dropdown",
 			"options": ["Sedan", "SUV", "Truck", "Coupe", "Convertible", "Van", "Hatchback", "Electric", "Hybrid", "MPV", "Pickup", "AUV", "Crossover", "Minivan", "Wagon"],
 			"required": true,
-			"column": 1,
 			"icon": "FaCar"
 		},
 		{
@@ -45,24 +41,21 @@
 			"fieldType": "dropdown",
 			"required": true,
 			"options": ["New", "Used", "Certified Pre-Owned"],
-			"column": 1,
 			"icon": "FaCheckCircle"
 		},
 
 		{
-			"label": "Car Brand",
-			"name": "carBrand",
+			"label": "Brand",
+			"name": "brand",
 			"fieldType": "text",
 			"required": true,
-			"column": 1,
 			"icon": "FaIndustry"
 		},
 		{
-			"label": "Car Model",
-			"name": "carModel",
+			"label": "Model",
+			"name": "model",
 			"fieldType": "text",
 			"required": true,
-			"column": 1,
 			"icon": "FaCarSide"
 		},
 		{
@@ -70,7 +63,6 @@
 			"name": "year",
 			"fieldType": "number",
 			"required": true,
-			"column": 1,
 			"icon": "FaCalendarAlt"
 		},
 		{
@@ -79,7 +71,6 @@
 			"fieldType": "dropdown",
 			"options": ["FWD", "RWD", "AWD", "4WD"],
 			"required": true,
-			"column": 1,
 			"icon": "FaRoad"
 		},
 		{
@@ -88,7 +79,6 @@
 			"fieldType": "dropdown",
 			"options": ["Automatic", "Manual", "CVT"],
 			"required": true,
-			"column": 1,
 			"icon": "FaCogs"
 		},
 		{
@@ -97,7 +87,6 @@
 			"fieldType": "dropdown",
 			"options": ["Petrol", "Diesel", "Electric", "Hybrid"],
 			"required": true,
-			"column": 1,
 			"icon": "FaGasPump"
 		},
 		{
@@ -105,21 +94,18 @@
 			"name": "mileage",
 			"fieldType": "number",
 			"required": true,
-			"column": 1,
 			"icon": "FaTachometerAlt"
 		},
 		{
 			"label": "Engine Size",
 			"name": "engineSize",
 			"fieldType": "text",
-			"column": 1,
 			"icon": "FaWrench"
 		},
 		{
 			"label": "Cylinder",
 			"name": "cylinder",
 			"fieldType": "number",
-			"column": 1,
 			"icon": "FaCircle"
 		},
 		{
@@ -127,7 +113,6 @@
 			"name": "color",
 			"fieldType": "text",
 			"required": true,
-			"column": 2,
 			"icon": "FaPalette"
 		},
 		{
@@ -135,14 +120,12 @@
 			"name": "door",
 			"fieldType": "number",
 			"required": true,
-			"column": 1,
 			"icon": "FaDoorClosed"
 		},
 		{
 			"label": "VIN",
 			"name": "vin",
 			"fieldType": "text",
-			"column": 1,
 			"icon": "FaIdCard"
 		},
 		{
@@ -150,7 +133,6 @@
 			"name": "offerType",
 			"fieldType": "dropdown",
 			"options": ["Buy", "Hot Offer", "Sell", "Urgent"],
-			"column": 2,
 			"icon": "FaTags"
 		},
 		{
@@ -158,7 +140,6 @@
 			"name": "description",
 			"fieldType": "textarea",
 			"required": true,
-			"column": 2,
 			"icon": "FaFileAlt"
 		}
 	]

@@ -4,7 +4,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 const MostSearchedCard = () => {
 	return (
-		<div className="mx-24">
+		<section className="px-4 py-16 sm:px-6 lg:px-24">
 			<h2 className="font-bold text-3xl text-center mt-16 mb-7">Most Searched Cars</h2>
 
 			<Carousel>
@@ -21,7 +21,7 @@ const MostSearchedCard = () => {
 				<CarouselPrevious />
 				<CarouselNext />
 			</Carousel>
-		</div>
+		</section>
 	);
 };
 

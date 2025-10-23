@@ -8,19 +8,45 @@ const Header = () => {
 	const { user, isSignedIn } = useUser();
 
 	return (
-		<div className="flex justify-between items-center shadow-sm p-5">
+		<header className="flex justify-between items-center shadow-sm p-4 md:px-20">
 			<Link
 				to={"/"}
 				className="text-3xl font-bold text-primary tracking-tight">
 				AutoMatch
 			</Link>
 
-			<ul className="hidden md:flex gap-16">
-				<li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">Home</li>
-				<li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">Search</li>
-				<li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">New</li>
-				<li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">Pre-owned</li>
-			</ul>
+			<nav className="hidden md:block">
+				<ul className="flex gap-16">
+					<li>
+						<Link
+							to="/"
+							className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary block">
+							Home
+						</Link>
+					</li>
+					<li>
+						<Link
+							to="/search"
+							className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary block">
+							Search
+						</Link>
+					</li>
+					<li>
+						<Link
+							to="/new-cars"
+							className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary block">
+							New
+						</Link>
+					</li>
+					<li>
+						<Link
+							to="/pre-owned"
+							className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary block">
+							Pre-owned
+						</Link>
+					</li>
+				</ul>
+			</nav>
 
 			{isSignedIn ? (
 				<div className="flex items-center gap-5">
@@ -37,7 +63,7 @@ const Header = () => {
 					</SignInButton> */}
 				</div>
 			)}
-		</div>
+		</header>
 	);
 };
 

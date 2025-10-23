@@ -3,7 +3,7 @@ import Search from "./Search";
 
 const Hero = () => {
 	return (
-		<div>
+		<section>
 			<div className="flex flex-col items-center p-10 py-20 gap-6 h-[650px] w-full bg-[#eef0fc]">
 				<h2 className="text-lg">Explore cars available in your area.</h2>
 				<h2 className="text-[60px] font-bold">Drive Your Dreams</h2>
@@ -16,7 +16,7 @@ const Hero = () => {
 					className="mt-10"
 				/>
 			</div>
-		</div>
+		</section>
 	);
 };
 

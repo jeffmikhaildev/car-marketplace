@@ -2,10 +2,10 @@ import Data from "@/Shared/Data";
 
 const Category = () => {
 	return (
-		<div className="mt-40">
+		<section className="mt-40">
 			<h2 className="font-bold text-3xl text-center mb-7">Choose Your Category</h2>
 
-			<div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-6 px-20">
+			<div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-6 px-4 py-16 sm:px-6 lg:px-24">
 				{Data.Category.map((category, index) => (
 					<div
 						key={index}
@@ -23,7 +23,7 @@ const Category = () => {
 					</div>
 				))}
 			</div>
-		</div>
+		</section>
 	);
 };
 

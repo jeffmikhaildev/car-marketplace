@@ -8,7 +8,7 @@ const Header = () => {
 	const { user, isSignedIn } = useUser();
 
 	return (
-		<header className="flex justify-between items-center shadow-sm p-4 md:px-20">
+		<header className="flex justify-between items-center shadow-sm px-4 py-6 lg:px-24">
 			<Link
 				to={"/"}
 				className="text-3xl font-bold text-primary tracking-tight">
@@ -51,7 +51,9 @@ const Header = () => {
 			{isSignedIn ? (
 				<div className="flex items-center gap-5">
 					<UserButton />
-					<Button>Submit Listing</Button>
+					<Link to={"/profile"}>
+						<Button>Submit Listing</Button>
+					</Link>
 				</div>
 			) : (
 				<div>

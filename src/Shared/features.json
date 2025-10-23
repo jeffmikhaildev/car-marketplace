@@ -1,0 +1,124 @@
+{
+	"features": [
+		{
+			"label": "Air Conditioning",
+			"name": "airConditioning",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Power Steering",
+			"name": "powerSteering",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Power Windows",
+			"name": "powerWindows",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Power Door Locks",
+			"name": "powerDoorLocks",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Keyless Entry",
+			"name": "keylessEntry",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Anti-lock Braking (ABS)",
+			"name": "abs",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Airbags",
+			"name": "airbags",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Rear Parking Sensors",
+			"name": "parkingSensors",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Backup Camera",
+			"name": "backupCamera",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Touchscreen Display",
+			"name": "touchscreen",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Bluetooth",
+			"name": "bluetooth",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "USB Ports",
+			"name": "usbPorts",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Apple CarPlay / Android Auto",
+			"name": "smartphoneIntegration",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Leather Seats",
+			"name": "leatherSeats",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Alloy Wheels",
+			"name": "alloyWheels",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Fog Lights",
+			"name": "fogLights",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Sunroof / Moonroof",
+			"name": "sunroof",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Roof Rails",
+			"name": "roofRails",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Third Row Seating",
+			"name": "thirdRowSeating",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Automatic Climate Control",
+			"name": "autoClimateControl",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Push Start Button",
+			"name": "pushStart",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Cruise Control",
+			"name": "cruiseControl",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Traction Control",
+			"name": "tractionControl",
+			"fieldType": "checkbox"
+		},
+		{
+			"label": "Stability Control",
+			"name": "stabilityControl",
+			"fieldType": "checkbox"
+		}
+	]
+}
